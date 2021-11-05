@@ -1,0 +1,14 @@
+{
+  "extends": "@netlify/eslint-config-node",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "id-length": 0,
+    "max-lines": 0,
+    "no-underscore-dangle": 0,
+    "node/prefer-global/process": 0,
+    "no-magic-numbers": 0,
+    "promise/prefer-await-to-callbacks": 1
+  }
+}
